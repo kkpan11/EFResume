@@ -52,19 +52,19 @@ func input(templete: inout EFTemplete) {
     templete.basicInfo.set(
         [
             "基本信息": [
-                "年龄：99",
+                "年龄：88",
                 "性别：未知",
                 "城市：火星"
             ],
             "联系方式": [
-                "QQ：1795xxxx91",
+                "QQ：6666xxxx66",
                 "邮箱：xxx@163.com",
-                "手机：136xxxx5161"
+                "手机：138xxxx8888"
             ],
             "社交账号": [
-                "微博：" + "@eyrefree777".a(link: "https://weibo.com/eyrefree777"),
-                "Twitter: " + "@eyrefree777".a(link: "https://twitter.com/EyreFree777"),
-                "GitHub：" + "EyreFree".a(link: "https://github.com/EyreFree")
+                "微博：" + "@xxxxxxxx".a(link: "https://weibo.com/xxxxxxxx"),
+                "Twitter: " + "@xxxxxxxx".a(link: "https://twitter.com/xxxxxxxx"),
+                "GitHub：" + "xxxxxxxx".a(link: "https://github.com/xxxxxxxx")
             ]
         ]
     )
@@ -72,7 +72,7 @@ func input(templete: inout EFTemplete) {
     // 个人简介
     templete.information.set(
         [
-            "目前就职于饿了么，主要负责xxx的开发、维护及小组管理工作，同时也负责管理物流 iOS 开发组的 GitHub 组织和维护本组的技术博客。",
+            "目前就职于饱了么，主要负责xxx的开发、维护及小组管理工作，同时也负责管理物流 iOS 开发组的 GitHub 组织和维护本组的技术博客。",
             "自 2015 年开始接触 iOS 开发，至今已有 2 年时间，熟练掌握 Swift、Objective-C 代码的编写。熟悉大部分 iOS 开发与调试工具，理解 iOS App 结构与运行机制，注重代码质量与执行效率。",
             "了解常见移动 App 架构，长期使用 Swift 与 Objective-C 进行混合开发，熟悉各类常用第三方库的使用。",
             "熟悉 iOS 库的开发与发布，了解怎样利用 CocoaPods／Swift Package Manager／Cathage 进行打包与集成，业余时间热爱编写开源代码。熟悉持续集成，能够编写 Jenkins、Travis CI 等持续集成工具的配置。",
@@ -120,12 +120,12 @@ func input(templete: inout EFTemplete) {
     )
 
     // 社区经验
-    templete.GitHubID.set("EyreFree")
+    templete.GitHubID.set("xxxxxxxx")
     templete.community.set(
         [
-            "iOS": "开发、维护和推广 \("GitHub".a(link: "https://github.com/EyreFree")) 上的 iOS 开源库。",
-            "翻译": "作为 \("SwiftGG".a(link: "http://swift.gg/")) 翻译组成员，参与翻译组的日常翻译、校对工作；参与饿了么大前端 Node 面试题（\("ElemeFE/node-interview".a(link: "https://github.com/ElemeFE/node-interview"))）中译英工作；提交英译中文档 PR 到 \("SwiftLint".a(link: "https://github.com/realm/SwiftLint")) 等开源项目。",
-            "其它": "作为 \("T 沙龙".a(link: "http://t.swift.gg/"))上海组委会成员负责组织上海地区的 iOS 线下技术分享交流活动；管理饿了么物流 iOS 开发组 GitHub 组织并维护小组技术博客。"
+            "iOS": "开发、维护和推广 \("GitHub".a(link: "https://github.com/xxxxxxxx")) 上的 iOS 开源库。",
+            "翻译": "作为 \("SwiftJJ".a(link: "http://swift.jj/")) 翻译组成员，参与翻译组的日常翻译、校对工作；参与饱了么大前端 Node 面试题（\("xxxxxxxx/node-interview".a(link: "https://github.com/xxxxxxxx/node-interview"))）中译英工作；提交英译中文档 PR 到 \("xxxxxxxx".a(link: "https://github.com/realm/xxxxxxxx")) 等开源项目。",
+            "其它": "作为 \("X 沙龙".a(link: "http://t.swift.jj/"))上海组委会成员负责组织上海地区的 iOS 线下技术分享交流活动；管理饱了么物流 iOS 开发组 GitHub 组织并维护小组技术博客。"
         ]
     )
 
@@ -167,7 +167,7 @@ func input(templete: inout EFTemplete) {
             ],
             [
                 "category": "北京xx科技有限公司（2015.03 — 2016.05）",
-                "pro_name": "iOS 维护和重构经验：xx证件照，KeepCap-xx相机，多来美发",
+                "pro_name": "iOS 维护和重构经验：xx证件照，FxxkCap-xx相机，哆来咪发",
                 "pro_desc": [
                     "从加入公司开始学习 iOS 开发，积累了一定的 iOS 开发和维护经验；",
                     "利用 Swift 2.3 独立对原有 App 进行了重构并完成上架。"
@@ -190,9 +190,9 @@ func input(templete: inout EFTemplete) {
         [
             [
                 "name": "示例项目",
-                "title": "EFQRCode（2300+ Star）",
+                "title": "xxxxxxxx（2300+ Star）",
                 "description": "这里可以填写项目介绍，这里可以填写项目介绍，这里可以填写项目介绍，这里可以填写项目介绍，这里可以填写项目介绍，这里可以填写项目介绍，这里可以填写项目介绍，这里可以填写项目介绍，这里可以填写项目介绍。",
-                "link": "https://github.com/EyreFree/EFQRCode"
+                "link": "https://github.com/EyreFree/xxxxxxxx"
             ]
         ]
     )
